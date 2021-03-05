@@ -1,0 +1,155 @@
+/* generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
+}
+
+.btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #FB775A;
+}
+
+.btn.btn-orange{
+    background-color: #FB775A;
+    color: white;
+}
+
+.btn.btn-white{
+    background-color: white;
+    color: #FB775A;
+}
+
+/* header */
+
+/* nav bar */
+
+.nav-bar{
+    width: 100%;
+    padding: 0 10%;
+    background-color: #F4F9FD;
+    line-height: 100px;
+    border-bottom: 1px solid #33475B;
+    font-size: 20px;
+}
+
+.login{
+    text-align: right;
+}
+
+.language-contact a{
+    text-decoration: none;
+    color:#33475B ;
+}
+
+.fa-globe-europe{
+    margin-right: 3px;
+    color: #33475B;
+}
+
+.language-contact .fa-angle-down{
+    color: #33475B;
+    margin-left: 3px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid steelblue;
+}
+
+.fa-search{
+    color: steelblue;
+    margin-right: 20px;
+}
+
+.space{
+    margin-right: 20px;
+}
+
+/* logo bar */
+
+.logo-bar{
+    width: 100%;
+    padding: 0 10%;
+    background-color: white;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+/* .logo{
+    
+} */
+
+.menu a{
+    text-decoration: none;
+    color: #33475B;
+}
+
+.menu .fa-angle-down{
+    color: #33475B;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+
+/* jumbotron */
+
+.h-principale{
+    height: 700px;
+    width: 100%;
+    padding: 0 10%;
+    background-color: #FEF2EF;
+    background-image: url(../hubspot/img/jumbotron.png);
+}
+
+.jumbotron{
+    height: 470px;
+    position: relative;
+    width: 45%;
+    
+}
+
+.jumbo-text{
+    position: absolute;
+    top:20%;  
+}
+
+.jumbo-text h1{
+    font-size: 300%;
+    color: #33475B;
+}
+
+.jumbo-text .sottotitolo{
+    margin: 25px 0 50px 0;
+    color: #33475B;
+    line-height: 25px;
+}
+
+.jumbo-text .btn.btn-orange.btn-large{
+    padding: 20px 30px;
+}
+
+.jumbo-text .sottosottotitolo{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #33475B;
+}
+
