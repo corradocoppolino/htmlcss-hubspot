@@ -116,11 +116,14 @@
 /* jumbotron */
 
 .h-principale{
-    height: 700px;
+    height: 654px;
     width: 100%;
     padding: 0 10%;
     background-color: #FEF2EF;
     background-image: url(../hubspot/img/jumbotron.png);
+    background-size: 1520px;
+    border-bottom: 4px solid #042D4C;
+    
 }
 
 .jumbotron{
@@ -154,5 +157,13 @@
     margin-top: 50px;
     font-size: 14px;
     color: #33475B;
+}
+
+/* divisore */
+
+.divisore{
+    height: 100px;
+    background-color: #AFEBE4;
+    border-bottom: 4px solid #042D4C;
 }
 
