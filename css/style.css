@@ -167,3 +167,23 @@
     border-bottom: 4px solid #042D4C;
 }
 
+/* main */
+
+/* sezione 1 */
+
+.section1{
+    width: 50%;
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+
+.section1 h1{
+    color: #33475B;
+    line-height: 60px;
+}
+
+.section1 p{
+    color: #33475B;
+    line-height: 30px;
+}
+
