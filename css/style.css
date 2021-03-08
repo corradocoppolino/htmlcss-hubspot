@@ -21,6 +21,7 @@
 }
 
 .btn{
+    display: inline;
     text-decoration: none;
     text-align: center;
     padding: 12px;
@@ -246,4 +247,85 @@ main{
 .feature .inline i{
     color: #FB775A;
 }
+
+/* sezione 3 */
+
+.section3{
+    
+    margin: 40px auto 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.column1{
+    width: 30%;
+    padding: 1% 4% 0 4%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.column2{
+    width: 30%;
+    padding: 1% 4% 0 4%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 0 5%;
+}
+
+.column3{
+    width: 30%;
+    padding: 1% 4% 0 4%;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.section3 .first-part img{
+    height: 20vh;
+    margin-top: 20px;
+}
+
+.section3 .first-part h2{
+    color: #33475B;
+    line-height: 80px;
+}
+
+.section3 .first-part p{
+    color: #33475B;
+    line-height: 25px;
+}
+
+.first-part{
+    padding-bottom: 20%;
+    border-bottom: 1px solid #33475B;
+}
+
+.second-part{
+    padding-bottom: 20%;
+}
+
+.section3 .second-part div{
+    text-align: left;
+}
+
+.section3 .second-part h3{
+    color: #33475B;
+    line-height: 80px;
+}
+
+.section3 .second-part p{
+    color: #33475B;
+    display: inline;
+}
+
+.section3 .second-part i{
+    color: #FB775A;
+}
+
+
+
+
+
 
