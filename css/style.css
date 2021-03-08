@@ -169,11 +169,16 @@
 
 /* main */
 
+main{
+    background-color: #F4F9FD;
+}
+
 /* sezione 1 */
 
 .section1{
     width: 50%;
-    margin: 40px auto 0 auto;
+    padding-top: 40px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -185,5 +190,60 @@
 .section1 p{
     color: #33475B;
     line-height: 30px;
+}
+
+/* sezione 2 */
+
+.section2{
+    width: 80%;
+    margin: 40px auto 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.learnmore{
+    margin: 50px;
+    width: 20%;
+    text-align: center;
+}
+
+.learnmore img{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.feature{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.feature h2{
+    line-height: 80px;
+    color: #33475B;
+}
+
+.feature .sottotitolo{
+    color: #33475B;
+    line-height: 25px;
+}
+
+.feature h3{
+    line-height: 80px;
+    color: #33475B;
+}
+
+.feature .inline i, .feature .inline p{
+   display: inline;
+   margin-right: 10px;
+}
+
+.feature .inline p{
+    color: #33475B;
+}
+
+.feature .inline i{
+    color: #FB775A;
 }
 
