@@ -324,6 +324,8 @@ main{
     color: #FB775A;
 }
 
+/* sezione 4 */
+
 .section4{
     width: 100%;
     padding: 0 10%;
@@ -386,6 +388,93 @@ main{
     border-bottom: 1px solid white;
     margin-bottom: 20px;
 }
+
+/* sezione 5 */
+
+.section5{
+    height: 200px;
+    width: 80%;
+    margin: 40px auto 0 auto;
+    position: relative;
+}
+
+.section5 .customers{
+    width: 20%;
+}
+
+.section5 .customers h1{
+    font-size: 400%;
+    color:#33475B;
+}
+
+.section5 .customers .paragrafo{
+    color:#33475B;
+    position: absolute;
+    line-height: 30px;
+    font-size: 20px;
+    bottom: 0;
+}
+
+.section5 .loghi{
+    width: 60%;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.section5 .loghi img{
+    width: 20%;
+}
+
+.section5 .loghi li{
+    list-style: none;
+    display: inline;
+    line-height: 50px;
+    vertical-align: middle;
+    padding-right: 4%;
+}
+
+/* sezione 6 */
+
+.section6{
+    margin: 40px auto 0 auto;
+    width: 80%;
+}
+
+.section6 .title{
+    width: 35%;
+    padding-top: 40px;
+}
+
+.section6 .title h1{
+    color: #33475B;
+    margin-bottom: 30px;
+}
+
+.section6 .title .sottotitolo{
+    line-height: 25px;
+    margin-bottom: 40px;
+    color: #33475B;
+}
+
+.section6 .title .sottosottotitolo{
+    font-size: 14px;
+    margin-top: 40px;
+    color: #33475B;
+    margin-bottom: 40px;
+}
+
+.section6 .image img{
+    height: 50vh;
+    width: auto;
+}
+
+
+
+
+
+
 
 
 
