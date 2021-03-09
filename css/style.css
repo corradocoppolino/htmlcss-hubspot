@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1200px;
+}
+
 .clearfix::after{
     content:"";
     display: table;
@@ -21,26 +26,40 @@
 }
 
 .btn{
-    display: inline;
     text-decoration: none;
     text-align: center;
-    padding: 12px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #FB775A;
 }
 
 .btn.btn-orange{
+    display: inline;
     background-color: #FB775A;
     color: white;
+    border: 1px solid #FB775A;
+}
+
+.btn.btn-blue{
+    display: inline-block;
+    border: 1px solid #33475B;
+    background-color: white;
+    color: #33475B;
 }
 
 .btn.btn-white{
+    display: inline;
     background-color: white;
     color: #FB775A;
+    border: 1px solid #FB775A;
+}
+
+.white{
+    color: white;
 }
 
 /* header */
+
 
 /* nav bar */
 
@@ -51,6 +70,9 @@
     line-height: 100px;
     border-bottom: 1px solid #33475B;
     font-size: 20px;
+    position: fixed;
+    z-index: 999;
+    margin-bottom: 100px;
 }
 
 .login{
@@ -88,7 +110,7 @@
 
 .logo-bar{
     width: 100%;
-    padding: 0 10%;
+    padding: 100px 10% 0 10%;
     background-color: white;
     line-height: 100px;
     font-size: 20px;
@@ -97,7 +119,7 @@
 
 .logo{
     position: absolute;
-    top: 50%;
+    top: 75%;
     transform: translateY(-40%);
 }
 
@@ -122,9 +144,9 @@
     padding: 0 10%;
     background-color: #FEF2EF;
     background-image: url(../hubspot/img/jumbotron.png);
-    background-size: 1520px;
-    border-bottom: 4px solid #042D4C;
-    
+    background-size: 1550px;
+    background-position: 100% 11%;
+    background-repeat: no-repeat;
 }
 
 .jumbotron{
@@ -165,6 +187,7 @@
 .divisore{
     height: 100px;
     background-color: #AFEBE4;
+    border-top: 4px solid #042D4C;
     border-bottom: 4px solid #042D4C;
 }
 
@@ -378,6 +401,9 @@ main{
 .section4 .first-part h1::after,.section4 .second-part h1::after{
     content: '\002B';
     padding-left: 10px;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 100%;
 }
 
 .section4 .first-part p,.section4 .second-part p{
@@ -450,6 +476,7 @@ main{
 .section6 .title h1{
     color: #33475B;
     margin-bottom: 30px;
+    font-size: 180%;
 }
 
 .section6 .title .sottotitolo{
@@ -469,6 +496,83 @@ main{
     height: 50vh;
     width: auto;
 }
+
+/* footer */
+
+.container-footer{
+    background-color: #33475B;
+    padding: 0 10%;
+    padding-bottom: 40px;
+}
+
+.container-footer .column1{
+    width: 25%;
+}
+
+.container-footer .column2{
+    width: 25%;
+}
+
+.container-footer .column3{
+    width: 25%;
+}
+
+.container-footer .column4{
+    width: 25%;
+}
+
+.container-footer .table h3{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.container-footer .table li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.container-footer .table li a{
+    text-decoration: none;
+}
+
+.container-footer .table li .btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-footer .table li i{
+    color: white;
+    padding-right: 20px;
+}
+
+.container-footer .language{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.container-footer .language p{
+    color: white;
+    display: inline;
+    padding:0 15px 0 15px;
+}
+
+.container-footer .copyright{
+    color: white;
+    margin-top: 30px;
+}
+
+.container-footer .copyright a{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+
+
+
 
 
 
